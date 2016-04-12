@@ -1,0 +1,19 @@
+1.	What is ruby?
+It is a programming language with a focus on simplicity and productivity.
+2.	What pros/cons you considered from the point explained in the class
+Pros
+Interpreted scripting language
+Quick and easy
+Object oriented programming
+Dynamic loading
+Threading support
+It has many libraries, tool, large  community
+
+Cons
+Ruby on rail is low
+Not has documentation
+ 
+3.	According what we talked today, what are the 3 testing tiers?
+User interface - it focus on interface of the program/application
+Services - it works on corba, soap and another services for test
+Backend - it focus on DB and other
