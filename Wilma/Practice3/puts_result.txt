@@ -1,0 +1,20 @@
+D:\qadev_v012016\Wilma\practice3>ruby timeToseg.rb
+The minutes are:1 to 100 seconds
+*****************
+The hour  is:0 to 100 seconds
+
+D:\qadev_v012016\Wilma\practice3>ruby timeToseg.rb
+The minutes are:16 to 1000 seconds
+*****************
+The hour  is:0 to 1000 seconds
+*****************
+The day  is:0 to 1000 seconds
+
+D:\qadev_v012016\Wilma\practice3>ruby timeToseg.rb
+The minutes are:150 to 9000 seconds
+*****************
+The hour  is:2 to 9000 seconds
+*****************
+The day  is:0 to 9000 seconds
+
+D:\qadev_v012016\Wilma\practice3>

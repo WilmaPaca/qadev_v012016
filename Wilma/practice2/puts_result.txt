@@ -1,0 +1,36 @@
+D:\qadev_v012016\Wilma\practice2>ruby practice2.rb
+Using put with operators:
+I will now count my fruits
+bananas: 30
+bananas: #25+30/6
+
+apples: 97
+
+Now I will count the potatoe:
+
+7
+false
+What is 3 + 2? It is 5
+What is 5 - 7? It is -2
+What is 5 * 7? It is 35
+What is 5 ** 7? It is 78125
+La variable xyz es mayor que 4
+more instruccion
+Using variables and operators comparatives =,==,<,>,!= , >= ,<=
+false
+True== a
+true
+variable xyz is par
+5is greater than 0
+
+0 is minor to 5
+
+0 is different to 5
+
+0 not is greater than 5
+
+5
+ not is greater than 0
+Using comparatives
+15
+ carrots was bought

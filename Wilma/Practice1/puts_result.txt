@@ -1,0 +1,129 @@
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+D:\qadev_v012016\Wilma\Practice1>ruby practice1.rb
+practice1.rb:4: syntax error, unexpected end-of-input, expecting keyword_end
+puts "******* "
+               ^
+
+D:\qadev_v012016\Wilma\Practice1>ruby practice1.rb
+Hello
+Hello*******
+
+D:\qadev_v012016\Wilma\Practice1>ruby practice1.rb
+Hello
+Hello*******
+*******
+*******
+*******
+*******
+*******
+*******
+
+D:\qadev_v012016\Wilma\Practice1>ruby practice1.rb
+Hello, starting ruby programming
+Using put with a for:
+*******
+*******
+*******
+*******
+*******
+*******
+*******
+Using put with a for:
+4
+8
+12
+16
+20
+24
+
+D:\qadev_v012016\Wilma\Practice1>ruby practice1.rb
+practice1.rb:5: syntax error, unexpected *
+practice1.rb:12: syntax error, unexpected end-of-input, expecting keyword_end
+
+D:\qadev_v012016\Wilma\Practice1>ruby practice1.rb
+Hello, starting ruby programming
+Using put with a for:
+practice1.rb:5:in `+': String can't be coerced into Fixnum (TypeError)
+        from practice1.rb:5:in `block in <main>'
+        from practice1.rb:4:in `each'
+        from practice1.rb:4:in `<main>'
+
+D:\qadev_v012016\Wilma\Practice1>ruby practice1.rb
+Hello, starting ruby programming
+Using put with a for:
+********
+********
+********
+********
+********
+********
+********
+Using put with a for:
+4
+8
+12
+16
+20
+24
+
+D:\qadev_v012016\Wilma\Practice1>ruby practice1.rb
+Hello, starting ruby programming
+Using put with a for:
+********
+********
+********
+********
+********
+********
+********
+Using put with a for:
+4
+8
+12
+16
+20
+24
+
+D:\qadev_v012016\Wilma\Practice1>ruby practice1.rb
+Hello, starting ruby programming
+Using put with a for:
+********
+********
+********
+********
+********
+********
+********
+Using put with a for:
+4
+8
+12
+16
+20
+24
+Using PRINT with a for:
+******
+D:\qadev_v012016\Wilma\Practice1>ruby practice1.rb
+Hello, starting ruby programming
+Using put with a for:
+********
+********
+********
+********
+********
+********
+********
+
+Using put with a for:
+4
+8
+12
+16
+20
+24
+
+Using PRINT and variable with a for:
+******
+D:\qadev_v012016\Wilma\Practice1>
