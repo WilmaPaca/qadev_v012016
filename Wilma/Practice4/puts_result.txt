@@ -1,0 +1,10 @@
+class Circle
+	@pi=Math::PI
+	def calculate radius		
+		puts "radious*2*pi
+	end
+	def perimeter radious
+		puts "Perimeter: #{radious*radious*pi}"
+	end
+	calculate(5)
+	perimeter(8)

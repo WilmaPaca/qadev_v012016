@@ -1,0 +1,28 @@
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+D:\qadev_v012016\Wilma\Practice4>ruby Practice4.rb
+What is your  name?
+Wilma
+Hi Wilma
+!! How are you today?
+********
+What is your  name?
+Sali
+Hi Sali!! How are you today?
+********
+What is your  favorite color?
+red
+Hi color:red!! How are you today?
+Robert Martin
+********
+Give me a number:34
+The floating number is : 34.0.
+********
+Give me a number:wer4
+The int number is : 0.
+********
+Give me a number: 678wr
+A bigger number is 67800.
+
+D:\qadev_v012016\Wilma\Practice4>

@@ -1,0 +1,9 @@
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+D:\qadev_v012016\Wilma\Practice6>ruby CircleClass.rb
+What is the radius of the circle? >56
+Area: 351.85837720205683
+Perimeter: 9852.03456165759
+
+D:\qadev_v012016\Wilma\Practice6>

@@ -1,0 +1,8 @@
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+D:\qadev_v012016\Wilma\Practice7>ruby AgeClass.rb
+What is your date birthday? >22
+Age in minutes: 11563200
+
+D:\qadev_v012016\Wilma\Practice7>
