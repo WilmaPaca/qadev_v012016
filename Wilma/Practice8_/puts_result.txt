@@ -1,0 +1,21 @@
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+D:\qadev_v012016\Wilma\Practice8_>ruby Person.rb
+Hi Wilma, have a nice day
+Hi Wilma
+
+D:\qadev_v012016\Wilma\Practice8_>
+
+
+
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+D:\qadev_v012016\Wilma\Practice8_>ruby Father.rb
+I have 400 $
+My father has 390 now
+My father has 375 now
+I am Jose
+
+D:\qadev_v012016\Wilma\Practice8_>

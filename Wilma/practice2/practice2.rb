@@ -104,7 +104,7 @@ send=25
 b="carrots"
 
 if b=="carrots"
-print buy
-print " carrots was bought"
+print buy.to_s+" carrots was bought"
+#print " carrots was bought"
 end 
 
