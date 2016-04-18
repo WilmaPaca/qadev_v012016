@@ -1,0 +1,26 @@
+D:\qadev_v012016\Wilma\Practice10>r
+What is your name? >Wilma
+
+Which is your destine?>Canada
+
+How many will you pay? >789
+This your ticket_tour
+**************************
+Name passenger: Wilma
+Destine:Canada
+
+Price ticket :789.0 $
+
+D:\qadev_v012016\Wilma\Practice10>r
+What is your name? >Wilma
+
+Which is your destine?>
+
+How many will you pay? >789
+This your ticket_tour
+**************************
+Name passenger: Wilma
+Destine: Cbba
+Price ticket :789.0 $
+
+D:\qadev_v012016\Wilma\Practice10>

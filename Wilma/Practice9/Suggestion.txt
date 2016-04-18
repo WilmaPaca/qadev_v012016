@@ -1,0 +1,75 @@
+Define which code guideline you would suggest for :
+****************************************
+Format (int, float, string)->
+
+The format for the variables is necesary to puts .to_s/ *.to_i/ *.to_/*.to_f when it uses us enter  values or manage us datas with operations greather. my purpose is 
+
+E.g.
+@name = name.to_string
+@@number = number.to_int
+countSeconds = seconds.to_f
+
+*********************************************
+Classes
+When we perform code is necesary to have a structure and format. My purpose is:
+
+E.g.
+=begin
+It is necesary to have comments to know the class and its purpose
+=end
+
+class Example
+
+	def method
+	
+	end
+
+end
+
+**********************************************
+Methods
+The methods when it uses parameters is better to puts () to understand its sequence, my purpose is:
+E.g.
+	def method (name, number)
+	@name = name.to_string
+	numberTelf = number.to_i
+	
+	end
+
+
+*********************************************
+Variables, Getter/Setter
+The variables Getter/Setter should be with a format to elimiante doubts in the code when others people review it.
+I consider It is possible to perform it better, below there is a example
+
+class Clothe
+# method that gets the value of @color
+  def color
+    @color
+  end
+ 
+# method that sets the value of @color
+ def color(str)
+   @color = str.to_s
+ end
+end
+
+clothe = Clothe.new
+# you are setting the color changing the @color to "Blue"
+clothe.color = "Blue"
+*********************************************
+If condition
+
+The conditions  should be to manage with a format to eliminate doubts with another people or partners. My purspose is:
+E.g.
+
+if ( a == b)
+
+end
+
+or
+
+if a == b
+	#the operations should be to perform with 	space.
+	puts "This is my example"
+end

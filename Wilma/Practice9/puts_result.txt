@@ -1,0 +1,17 @@
+D:\qadev_v012016\Wilma\Practice9>ruby
+Hi
+MARIA
+**********
+Hi
+MARIA
+CelsiusToFahrenheit
+73
+*** using return ***
+73
+FahrenheitToCeslcius
+22
+*** Printing the method direct ***
+FahrenheitToCeslcius
+22
+
+D:\qadev_v012016\Wilma\Practice9>
