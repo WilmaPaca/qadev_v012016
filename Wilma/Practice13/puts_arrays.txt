@@ -1,0 +1,36 @@
+D:\qadev_v012016\Wilma
+Hi, friend
+  Good MorningHi, frie
+ Good Afternoon
+Hi, friend
+ Good Night
+Hi, friend
+ Good Evening
+ Good Bye, friend
+See you later, friend
+Take care, friend
+
+D:\qadev_v012016\Wilma\Practice13>ruby
+***************Array letters***********
+Array size:8
+a
+h
+f
+***************Array names*************
+Array size:3
+Wilma
+Paca
+Patzi
+
+Wilma
+Paca
+
+false
+***************Array primes************
+3
+11
+43
+683
+2731
+
+D:\qadev_v012016\Wilma\Practice13>
