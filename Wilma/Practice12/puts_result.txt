@@ -1,0 +1,11 @@
+D:\qadev_v012016\Wilma\Practice12>ruby
+You are in the block 5
+You are in the method
+You are in the block 100
+**********************************
+
+****Operation with a block(yield)*****
+Addtion of (a) and (b):11
+Minus of (a) and (b):-1
+
+D:\qadev_v012016\Wilma\Practice12>
