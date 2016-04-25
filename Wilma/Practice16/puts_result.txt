@@ -1,0 +1,25 @@
+D:\qadev_v012016\Wilma\Practice16>r
+Insert the number of datas for the
+insert the key>1
+
+insert the value for the KEY>red
+insert the key>2
+
+insert the value for the KEY>green
+insert the key>3
+
+insert the value for the KEY>carrot
+***These are the element to hash **
+{"1"=>"red", "2"=>"green", "3"=>"ca
+insert the key to print>1
+the element for the key is:
+{"1"=>"red"}
+insert the value to print> carrot
+the element for the value is:
+{"3"=>"carrot"}
+insert the key to verify in the Has
+false
+insert the value to verify in the H
+true
+
+D:\qadev_v012016\Wilma\Practice16>

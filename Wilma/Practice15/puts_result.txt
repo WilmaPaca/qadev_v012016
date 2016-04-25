@@ -1,0 +1,24 @@
+D:\qadev_v012016\Wilma\Practice15>ruby P
+Insert the number of datas for the array
+insert the value alphabetic>w
+insert the value alphabetic>s
+w
+s
+
+1
+2
+1
+2
+
+1
+2
+1
+2
+w
+s
+Datas common
+w
+s
+
+
+D:\qadev_v012016\Wilma\Practice15>

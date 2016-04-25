@@ -1,0 +1,11 @@
+D:\qadev_v012016\Wilma\Practice17
+You are a child 70080 in hours
+
+D:\qadev_v012016\Wilma\Practice17>ruby PracticeRegistryP.rb
+Insert the number of people for the registry>1
+insert the ID>2
+
+insert the NAME for the ID>sa
+good bye SA
+
+D:\qadev_v012016\Wilma\Practice17>r
