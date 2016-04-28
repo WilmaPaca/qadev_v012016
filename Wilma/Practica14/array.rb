@@ -31,7 +31,7 @@ puts " shift element="+aloh.shift
 
 puts "using unshift"
 aloh7=["a","b","c","d","f"]
-puts " shift element="+aloh7.unshift
+puts " shift element="+aloh7.shift
 
 alpha=Array.new
 alpha.push("x","y","z")

@@ -1,0 +1,27 @@
+module Convert
+	def convertMinHour min
+		@minHour=60
+		@hour=1
+		if min>minHour || min<minHour
+			@result=((min*hour)/minHour)
+		end
+		return @result
+	end
+	def convertHourDay hour
+		@hourDay=24
+		@day=1
+		if hour>hourDay || hour<hourDay
+			@result=(hour*day)/hourDay)
+		end
+		return @result
+	end
+	def convertDayMonth day
+		@dayMonth=30
+		@month=1
+		if day>dayMonth || day<dayMonth
+			@result=(dayr*month)/dayMonth)
+		end
+		return @result
+	end	
+end
+

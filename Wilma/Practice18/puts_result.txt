@@ -1,0 +1,28 @@
+D:\qadev_v012016\Wilma\Practice18>ruby r
+0
+What is the name>weR
+What is the name>Re3
+What is the name>we
+we
+Re3
+weR
+What is the password>re4
+re4
+What is the mail>florpatzi@hotmail.com
+florpatzi@hotmail.com
+
+D:\qadev_v012016\Wilma\Practice18>
+
+D:\qadev_v012016\Wilma\Practice18>
+Insert the number of people for th
+insert the ID>3
+
+insert the NAME for the ID>we
+insert the number to find> 3
+The IDs for the number are:
+{3=>"we"}
+insert the character to find> w
+The name for the Character are:
+{}
+
+D:\qadev_v012016\Wilma\Practice18>

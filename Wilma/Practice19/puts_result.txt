@@ -1,0 +1,24 @@
+D:\qadev_v012016\Wilma\Practice19>ru
+Which is the number lines to be Crea
+2
+Insert the line>hi
+Insert the line>hello
+
+hihello
+If you want to add lines, How many l
+1
+Insert the line>I am
+
+hihelloI am
+D:\qadev_v012016\Wilma\Practice19>
+
+D:\qadev_v012016\Wilma\Practice19>r
+Insert the number resgistries to be
+2
+USER_
+PASS_
+["USER_1", "PASS_1", "04/26/2016","CBBA"]
+
+["USER_2", "PASS_2", "04/26/2016","CBBA"]
+
+D:\qadev_v012016\Wilma\Practice19>
