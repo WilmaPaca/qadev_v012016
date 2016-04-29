@@ -1,0 +1,238 @@
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+D:\qadev_v012016\Wilma\Cucumber>gem install cucumber gem
+Fetching: builder-3.2.2.gem (100%)
+Successfully installed builder-3.2.2
+Fetching: gherkin-3.2.0.gem (100%)
+Successfully installed gherkin-3.2.0
+Fetching: cucumber-core-1.4.0.gem (100%)
+Successfully installed cucumber-core-1.4.0
+Fetching: cucumber-wire-0.0.1.gem (100%)
+Successfully installed cucumber-wire-0.0.1
+Fetching: diff-lcs-1.2.5.gem (100%)
+Successfully installed diff-lcs-1.2.5
+Fetching: multi_json-1.11.3.gem (100%)
+Successfully installed multi_json-1.11.3
+Fetching: multi_test-0.1.2.gem (100%)
+Successfully installed multi_test-0.1.2
+Fetching: cucumber-2.3.3.gem (100%)
+We need your help.
+
+Please take a few minutes to fill out our survey and help us understand how BDD
+and Cucumber are used in the wild.
+
+  http://tinyurl.com/zk9jyrf
+
+Thanks!
+
+? The Cucumber Team ?
+Successfully installed cucumber-2.3.3
+Parsing documentation for builder-3.2.2
+Installing ri documentation for builder-3.2.2
+Parsing documentation for gherkin-3.2.0
+Installing ri documentation for gherkin-3.2.0
+Parsing documentation for cucumber-core-1.4.0
+Installing ri documentation for cucumber-core-1.4.0
+Parsing documentation for cucumber-wire-0.0.1
+Installing ri documentation for cucumber-wire-0.0.1
+Parsing documentation for diff-lcs-1.2.5
+Installing ri documentation for diff-lcs-1.2.5
+Parsing documentation for multi_json-1.11.3
+Installing ri documentation for multi_json-1.11.3
+Parsing documentation for multi_test-0.1.2
+Installing ri documentation for multi_test-0.1.2
+Parsing documentation for cucumber-2.3.3
+Installing ri documentation for cucumber-2.3.3
+Done installing documentation for builder, gherkin, cucumber-core, cucumber-wire
+, diff-lcs, multi_json, multi_test, cucumber after 22 seconds
+ERROR:  Could not find a valid gem 'gem' (>= 0) in any repository
+8 gems installed
+
+D:\qadev_v012016\Wilma\Cucumber>gem list
+
+*** LOCAL GEMS ***
+
+bigdecimal (1.2.6)
+builder (3.2.2)
+cucumber (2.3.3)
+cucumber-core (1.4.0)
+cucumber-wire (0.0.1)
+diff-lcs (1.2.5)
+gherkin (3.2.0)
+io-console (0.4.3)
+json (1.8.1)
+minitest (5.4.3)
+multi_json (1.11.3)
+multi_test (0.1.2)
+power_assert (0.2.2)
+psych (2.0.8)
+rake (10.4.2)
+rdoc (4.2.0)
+test-unit (3.0.8)
+
+D:\qadev_v012016\Wilma\Cucumber>gem_name --version
+'gem_name' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\qadev_v012016\Wilma\Cucumber>builder --version
+'builder' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\qadev_v012016\Wilma\Cucumber>minitest --version
+'minitest' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\qadev_v012016\Wilma\Cucumber>minitest.exe --version
+'minitest.exe' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\qadev_v012016\Wilma\Cucumber>gem uninstall cucumber gem
+Remove executables:
+        cucumber
+
+in addition to the gem? [Yn]  y
+Removing cucumber
+Successfully uninstalled cucumber-2.3.3
+
+D:\qadev_v012016\Wilma\Cucumber>gem list
+
+*** LOCAL GEMS ***
+
+bigdecimal (1.2.6)
+builder (3.2.2)
+cucumber-core (1.4.0)
+cucumber-wire (0.0.1)
+diff-lcs (1.2.5)
+gherkin (3.2.0)
+io-console (0.4.3)
+json (1.8.1)
+minitest (5.4.3)
+multi_json (1.11.3)
+multi_test (0.1.2)
+power_assert (0.2.2)
+psych (2.0.8)
+rake (10.4.2)
+rdoc (4.2.0)
+test-unit (3.0.8)
+
+D:\qadev_v012016\Wilma\Cucumber>gem list
+
+*** LOCAL GEMS ***
+
+bigdecimal (1.2.6)
+io-console (0.4.3)
+json (1.8.1)
+psych (2.0.8)
+rake (10.4.2)
+rdoc (4.2.0)
+
+D:\qadev_v012016\Wilma\Cucumber>gem install bundler
+Fetching: bundler-1.11.2.gem (100%)
+Successfully installed bundler-1.11.2
+Parsing documentation for bundler-1.11.2
+Installing ri documentation for bundler-1.11.2
+Done installing documentation for bundler after 14 seconds
+1 gem installed
+
+D:\qadev_v012016\Wilma\Cucumber>list
+'list' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\qadev_v012016\Wilma\Cucumber>gem list
+
+*** LOCAL GEMS ***
+
+bigdecimal (1.2.6)
+bundler (1.11.2)
+io-console (0.4.3)
+json (1.8.1)
+psych (2.0.8)
+rake (10.4.2)
+rdoc (4.2.0)
+
+D:\qadev_v012016\Wilma\Cucumber>bundle install
+Fetching gem metadata from https://rubygems.org/...........
+Fetching version metadata from https://rubygems.org/..
+Resolving dependencies...
+Installing builder 3.2.2
+Installing gherkin 3.2.0
+Installing cucumber-wire 0.0.1
+Installing diff-lcs 1.2.5
+Installing multi_json 1.11.3
+Installing multi_test 0.1.2
+Using bundler 1.11.2
+Installing cucumber-core 1.4.0
+Installing cucumber 2.3.3
+Bundle complete! 1 Gemfile dependency, 9 gems now installed.
+Use `bundle show [gemname]` to see where a bundled gem is installed.
+Post-install message from cucumber:
+We need your help.
+
+Please take a few minutes to fill out our survey and help us understand how BDD
+and Cucumber are used in the wild.
+
+  http://tinyurl.com/zk9jyrf
+
+Thanks!
+
+? The Cucumber Team ?
+
+D:\qadev_v012016\Wilma\Cucumber>bundle uninstall
+Could not find command "uninstall".
+
+D:\qadev_v012016\Wilma\Cucumber>gem uninstall bundle
+
+D:\qadev_v012016\Wilma\Cucumber>list
+'list' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\qadev_v012016\Wilma\Cucumber>gem list
+
+*** LOCAL GEMS ***
+
+bigdecimal (1.2.6)
+builder (3.2.2)
+bundler (1.11.2)
+cucumber (2.3.3)
+cucumber-core (1.4.0)
+cucumber-wire (0.0.1)
+diff-lcs (1.2.5)
+gherkin (3.2.0)
+io-console (0.4.3)
+json (1.8.1)
+multi_json (1.11.3)
+multi_test (0.1.2)
+psych (2.0.8)
+rake (10.4.2)
+rdoc (4.2.0)
+
+D:\qadev_v012016\Wilma\Cucumber>gem uninstall bundler
+Remove executables:
+        bundle, bundler
+
+in addition to the gem? [Yn]  y
+Removing bundle
+Removing bundler
+Successfully uninstalled bundler-1.11.2
+
+D:\qadev_v012016\Wilma\Cucumber>gem list
+
+*** LOCAL GEMS ***
+
+bigdecimal (1.2.6)
+builder (3.2.2)
+cucumber (2.3.3)
+cucumber-core (1.4.0)
+cucumber-wire (0.0.1)
+diff-lcs (1.2.5)
+gherkin (3.2.0)
+io-console (0.4.3)
+json (1.8.1)
+multi_json (1.11.3)
+multi_test (0.1.2)
+psych (2.0.8)
+rake (10.4.2)
+rdoc (4.2.0)
+
+D:\qadev_v012016\Wilma\Cucumber>

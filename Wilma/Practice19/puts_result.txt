@@ -22,3 +22,19 @@ PASS_
 ["USER_2", "PASS_2", "04/26/2016","CBBA"]
 
 D:\qadev_v012016\Wilma\Practice19>
+
+D:\qadev_v012016\Wilma\Practice19>ruby ShoppingAmazon.rb
+Insert the item to buy>
+tie
+Insert the quantity to buy>
+3
+{"tie"=>159}
+tie
+159
+156
+the price is:
+47.7
+The list the price for items is
+{"shirt"=>10.9, "pant"=>30.9, "tie"=>15.9, "hat"=>17.9, "shoes"=>120.9}
+The list  price update for items is
+{"shirt"=>12, "pant"=>35, "hat"=>19, "shoes"=>29, "tie"=>156}
