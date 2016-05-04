@@ -1,0 +1,83 @@
+D:\qadev_v012016\Wilma\Cucumber>cucumber features\university.feature
+*** WARNING: You must use ANSICON 1.31 or higher (https://github.com/adoxa/ansi
+on/) to get coloured output on Windows
+Feature: University day
+"""The student into the university
+Everybody can go to classes in differents schedule
+to learn
+"""Copyright Wilma Paca
+
+  Scenario: Take note of the class                   # features/univerity.featu
+e:8
+    Given I have Data Base class                     # features/univerity.featu
+e:9
+    And I have a exam                                # features/univerity.featu
+e:10
+    When I had finished a section of the agend       # features/univerity.featu
+e:11
+    Then I have to study every day                   # features/univerity.featu
+e:12
+    And I approve the exam to pass to the final exam # features/univerity.featu
+e:13
+
+  Scenario: Do task                                    # features/univerity.fea
+ure:15
+    Given I have many task                             # features/univerity.fea
+ure:16
+    And I have to do them                              # features/univerity.fea
+ure:17
+    When I have free time                              # features/univerity.fea
+ure:18
+    Then I have to choose the task with major priority # features/univerity.fea
+ure:19
+    And I perform them in order                        # features/univerity.fea
+ure:20
+
+2 scenarios (2 undefined)
+10 steps (10 undefined)
+0m0.106s
+
+You can implement step definitions for undefined steps with these snippets:
+
+Given(/^I have Data Base class$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Given(/^I have a exam$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When(/^I had finished a section of the agend$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^I have to study every day$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^I approve the exam to pass to the final exam$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Given(/^I have many task$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Given(/^I have to do them$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When(/^I have free time$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^I have to choose the task with major priority$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^I perform them in order$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+
+D:\qadev_v012016\Wilma\Cucumber>

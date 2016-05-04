@@ -1,0 +1,114 @@
+D:\qadev_v012016\Wilma\Cucumber>cucumber features\Google.feature
+*** WARNING: You must use ANSICON 1.31 or higher (https://github.com/adoxa/ansi
+on/) to get coloured output on Windows
+Feature: Search information
+"""Google is a tool to search information in:
+        All-> contain information of different format
+        video-> contain information only in video format
+        image-> contain information only in image format
+        other format
+Sample: consideration to write report
+
+The Key word can be used to the start or final of the phrase.
+e.g. Definition: Ruby
+        Cucumber and ruby pdf
+"""Copyright Wilma Paca
+
+  Scenario: Search information with key words                  # features/Googl
+.feature:15
+    Given It has a text the search field                       # features/Googl
+.feature:16
+    And It has a key word                                      # features/Googl
+.feature:17
+    When It clicked the "search" button                        # features/Googl
+.feature:18
+    And It chose the search type                               # features/Googl
+.feature:19
+    Then It has to review if the phrase contain keyword        # features/Googl
+.feature:20
+    And It take this keyword                                   # features/Googl
+.feature:21
+    And It eliminate this word of the phrase                   # features/Googl
+.feature:22
+    And It eliminate the spaces in the phrase                  # features/Googl
+.feature:23
+    And It take the words by piece to search occurence         # features/Googl
+.feature:24
+    Then It shows all page with the major  occurences quantity # features/Googl
+.feature:25
+
+  Scenario: Search information                                 # features/Googl
+.feature:27
+    Given It has a text the search field                       # features/Googl
+.feature:28
+    When It clicked the "search" button                        # features/Googl
+.feature:29
+    And It chose the search type                               # features/Googl
+.feature:30
+    Then It put the phrase by word in the array                # features/Googl
+.feature:31
+    And It take every word                                     # features/Googl
+.feature:32
+    And It search occurences for the word                      # features/Googl
+.feature:33
+    Then It shows all page with the major  occurences quantity # features/Googl
+.feature:34
+
+2 scenarios (2 undefined)
+17 steps (17 undefined)
+0m0.099s
+
+You can implement step definitions for undefined steps with these snippets:
+
+Given(/^It has a text the search field$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Given(/^It has a key word$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When(/^It clicked the "([^"]*)" button$/) do |arg1|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When(/^It chose the search type$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^It has to review if the phrase contain keyword$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^It take this keyword$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^It eliminate this word of the phrase$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^It eliminate the spaces in the phrase$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^It take the words by piece to search occurence$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^It shows all page with the major  occurences quantity$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^It put the phrase by word in the array$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^It take every word$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^It search occurences for the word$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
