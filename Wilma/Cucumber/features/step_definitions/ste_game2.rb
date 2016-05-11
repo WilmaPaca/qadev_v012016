@@ -1,5 +1,4 @@
-When(/^the board is fulled$/) do
-  pending # Write code here that turns the phrase above into concrete actions
+When(/^the board is fulled$/) do 
   puts @board
 
 end
