@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5c151404bf00663247f1c2699ac6cd298cf0d12c
 Given(/^I selected Maria for search$/) do
   pending # Write code here that turns the phrase above into concrete actions
 end

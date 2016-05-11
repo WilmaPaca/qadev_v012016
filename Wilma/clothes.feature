@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 
-=======
->>>>>>> 5c151404bf00663247f1c2699ac6cd298cf0d12c
 Feature: Clothes Buy
 """The store has many clothes with differents styles
 """Copyright Wilma Paca
@@ -14,11 +11,7 @@ When The id exist
 Then The Maria count is displayed to buy
 
 Scenario: buy item
-<<<<<<< HEAD
-Given I select item 1 
-=======
 Given I select item1 
->>>>>>> 5c151404bf00663247f1c2699ac6cd298cf0d12c
 When The id is matched with the Maria
 And The item 1 is selected
 And The price is $200
