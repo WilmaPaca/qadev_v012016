@@ -1,0 +1,115 @@
+D:\qadev_v012016\Wilma\Cucumber>cucumber features\buyApples.feature
+*** WARNING: You must use ANSICON 1.31 or higher (https://github.com/adoxa/ansic
+on/) to get coloured output on Windows
+Feature: Eat apples
+ As a user
+ I want to eat 5 apples
+ So that I need to buy in the supermarket
+...
+This feature shows like to buy apples to eat
+...
+
+  Scenario: Buy apples to eat                      # features/buyApples.feature:
+9
+    Given I want 5 apples to buy the supermarket   # features/buyApples.feature:
+10
+    Given I have 256 Bs with "credit card"         # features/buyApples.feature:
+11
+    And I have 10 minutes to go to the supermarket # features/buyApples.feature:
+12
+    When the supermarket close their doors         # features/buyApples.feature:
+13
+    Then I go very fast                            # features/buyApples.feature:
+14
+    When I entry to the supermarket                # features/buyApples.feature:
+15
+    Then I take 5 apples to buy                    # features/buyApples.feature:
+16
+    And I go to the assistent to pay               # features/buyApples.feature:
+17
+    And I pay with "credit card"                   # features/buyApples.feature:
+18
+
+1 scenario (1 undefined)
+9 steps (9 undefined)
+0m0.069s
+
+You can implement step definitions for undefined steps with these snippets:
+
+Given(/^I want (\d+) apples to buy the supermarket$/) do |arg1|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Given(/^I have (\d+) Bs with "([^"]*)"$/) do |arg1, arg2|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Given(/^I have (\d+) minutes to go to the supermarket$/) do |arg1|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When(/^the supermarket close their doors$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^I go very fast$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When(/^I entry to the supermarket$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^I take (\d+) apples to buy$/) do |arg1|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^I go to the assistent to pay$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^I pay with "([^"]*)"$/) do |arg1|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+
+D:\qadev_v012016\Wilma\Cucumber>cucumber features\buyApples.feature
+*** WARNING: You must use ANSICON 1.31 or higher (https://github.com/adoxa/ansic
+on/) to get coloured output on Windows
+Feature: Eat apples
+ As a user
+ I want to eat 5 apples
+ So that I need to buy in the supermarket
+...
+This feature shows like to buy apples to eat
+...
+
+  Scenario: Buy apples to eat                      # features/buyApples.feature:
+9
+    Given I want 5 apples to buy the supermarket   # features/step_definitions/s
+tep_buyApples.rb:1
+      TODO (Cucumber::Pending)
+      ./features/step_definitions/step_buyApples.rb:2:in `/^I want (\d+) apples
+to buy the supermarket$/'
+      features/buyApples.feature:10:in `Given I want 5 apples to buy the superma
+rket'
+    Given I have 256 Bs with "credit card"         # features/step_definitions/s
+tep_buyApples.rb:5
+    And I have 10 minutes to go to the supermarket # features/step_definitions/s
+tep_buyApples.rb:9
+    When the supermarket close their doors         # features/step_definitions/s
+tep_buyApples.rb:13
+    Then I go very fast                            # features/step_definitions/s
+tep_buyApples.rb:17
+    When I entry to the supermarket                # features/step_definitions/s
+tep_buyApples.rb:21
+    Then I take 5 apples to buy                    # features/step_definitions/s
+tep_buyApples.rb:25
+    And I go to the assistent to pay               # features/step_definitions/s
+tep_buyApples.rb:29
+    And I pay with "credit card"                   # features/step_definitions/s
+tep_buyApples.rb:33
+
+1 scenario (1 pending)
+9 steps (8 skipped, 1 pending)
+0m0.107s

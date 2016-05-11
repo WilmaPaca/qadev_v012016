@@ -1,0 +1,19 @@
+Feature: Weekend
+
+Scenario: Go to visit my friends
+Give I have two days in the weekend
+When I did not go to the Fundacion
+Then I should go to visit to my friends to the following address:
+| Ana Maria | Loreto zone South       |
+| Giovana   | Tiquipaya               |
+| Marela    | America zone |
+
+Scenario: Go to visit places
+Give I have two days in the weekend
+When I did not go to the Fundacion
+Then I should go to visit the following places:
+| Chapare |
+| ToroToro |
+| Samaipata |
+| Puerto Suarez |
+| Noel Kempt Park|

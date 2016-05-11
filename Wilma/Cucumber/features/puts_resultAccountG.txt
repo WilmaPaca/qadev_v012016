@@ -1,0 +1,155 @@
+D:\qadev_v012016\Wilma\Cucumber>cucumber features\AccountG.feature
+*** WARNING: You must use ANSICON 1.31 or higher (https://github.com/adoxa/ansi
+on/) to get coloured output on Windows
+Feature: Have an Account
+ As a user
+ I want to have an account in gmail
+ So that I need to register my data
+...
+This feature shows like to have an account
+
+  Scenario: Create an account                                             # fea
+ures/AccountG.feature:8
+    Given I click "create an account"                                     # fea
+ures/AccountG.feature:9
+    When I see to the form                                                # fea
+ures/AccountG.feature:10
+    Then I insert "Wilma" in the name field                               # fea
+ures/AccountG.feature:11
+    And I insert "Paca" in the lastname field                             # fea
+ures/AccountG.feature:12
+    And I insert "florcita1" in the username field                        # fea
+ures/AccountG.feature:13
+    And I insert "P4ssw0rd" in the password field                         # fea
+ures/AccountG.feature:14
+    And I insert "P4ssw0rd" in the confirm your password field            # fea
+ures/AccountG.feature:15
+    And I choose "May" in the month field                                 # fea
+ures/AccountG.feature:16
+    And I choose "23" in the day field                                    # fea
+ures/AccountG.feature:17
+    And I choose "1986" in the years field                                # fea
+ures/AccountG.feature:18
+    And I choose "F" in the gender field                                  # fea
+ures/AccountG.feature:19
+    And I insert "77419560" in the Mobile number field                    # fea
+ures/AccountG.feature:20
+    And I insert "florpatzi@gmail.com" in the current email address field # fea
+ures/AccountG.feature:21
+
+1 scenario (1 undefined)
+13 steps (13 undefined)
+0m0.062s
+
+You can implement step definitions for undefined steps with these snippets:
+
+Given(/^I click "([^"]*)"$/) do |arg1|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When(/^I see to the form$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^I insert "([^"]*)" in the name field$/) do |arg1|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^I insert "([^"]*)" in the lastname field$/) do |arg1|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^I insert "([^"]*)" in the username field$/) do |arg1|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^I insert "([^"]*)" in the password field$/) do |arg1|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^I insert "([^"]*)" in the confirm your password field$/) do |arg1|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^I choose "([^"]*)" in the month field$/) do |arg1|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^I choose "([^"]*)" in the day field$/) do |arg1|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^I choose "([^"]*)" in the years field$/) do |arg1|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^I choose "([^"]*)" in the gender field$/) do |arg1|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^I insert "([^"]*)" in the Mobile number field$/) do |arg1|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^I insert "([^"]*)" in the current email address field$/) do |arg1|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+D:\qadev_v012016\Wilma\Cucumber>
+D:\qadev_v012016\Wilma\Cucumber>cucumber features\AccountG.feature
+*** WARNING: You must use ANSICON 1.31 or higher (https://github.com/adoxa/ansic
+on/) to get coloured output on Windows
+Feature: Have an Account
+ As a user
+ I want to have an account in gmail
+ So that I need to register my data
+...
+This feature shows like to have an account
+
+  Scenario: Create an account                                             # feat
+ures/AccountG.feature:8
+    Given I click "create an account"                                     # feat
+ures/step_definitions/step_AccountG.rb:1
+      TODO (Cucumber::Pending)
+      ./features/step_definitions/step_AccountG.rb:2:in `/^I click "([create an
+account]*)"$/'
+      features/AccountG.feature:9:in `Given I click "create an account"'
+    When I see to the form                                                # feat
+ures/step_definitions/step_AccountG.rb:5
+    Then I insert "Wilma" in the name field                               # feat
+ures/step_definitions/step_AccountG.rb:9
+    And I insert "Paca" in the lastname field                             # feat
+ures/step_definitions/step_AccountG.rb:13
+    And I insert "florcita1" in the username field                        # feat
+ures/step_definitions/step_AccountG.rb:17
+    And I insert "P4ssw0rd" in the password field                         # feat
+ures/AccountG.feature:14
+    And I insert "P4ssw0rd" in the confirm your password field            # feat
+ures/AccountG.feature:15
+    And I choose "May" in the month field                                 # feat
+ures/step_definitions/step_AccountG.rb:29
+    And I choose "23" in the day field                                    # feat
+ures/step_definitions/step_AccountG.rb:33
+    And I choose "1986" in the years field                                # feat
+ures/step_definitions/step_AccountG.rb:37
+    And I choose "F" in the gender field                                  # feat
+ures/step_definitions/step_AccountG.rb:41
+    And I insert "77419560" in the Mobile number field                    # feat
+ures/step_definitions/step_AccountG.rb:45
+    And I insert "florpatzi@gmail.com" in the current email address field # feat
+ures/step_definitions/step_AccountG.rb:49
+
+1 scenario (1 pending)
+13 steps (10 skipped, 2 undefined, 1 pending)
+0m0.110s
+
+You can implement step definitions for undefined steps with these snippets:
+
+Then(/^I insert "([^"]*)" in the password field$/) do |arg1|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^I insert "([^"]*)" in the confirm your password field$/) do |arg1|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+
