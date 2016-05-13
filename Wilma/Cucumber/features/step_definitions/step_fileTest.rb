@@ -1,32 +1,32 @@
-Given(/^I have English class$/) do
+Given(/^I have the file name$/) do
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-When(/^I am in the Fundation$/) do
+Given(/^I have the root for the file$/) do
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-Then(/^I pass the class$/) do
+When(/^I search "([^"]*)" file with the root "([^"]*)" of the folder$/) do |arg1, arg2|
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-Given(/^I am in my house$/) do
+Then(/^I should shows the result for the file$/) do
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-When(/^I did not go to the Fundation$/) do
+Then(/^I should shows that the root is incorrect$/) do
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-Then(/^I watched a movie or write poem$/) do
+Given(/^I do not have the root for the file$/) do
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-Given(/^I have a free time$/) do
+When(/^I search "([^"]*)" file in the  "([^"]*)" disk$/) do |arg1, arg2|
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-Then(/^I go to buy shoes nice$/) do
+Then(/^I should shows the result for the file name$/) do
   pending # Write code here that turns the phrase above into concrete actions
 end
 

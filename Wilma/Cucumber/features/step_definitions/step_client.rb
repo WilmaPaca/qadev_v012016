@@ -1,59 +1,63 @@
-Given(/^I have a \(ZipCode\) number$/) do
+Given(/^I have \$(\d+) in my balance$/) do |arg1|
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-Given(/^I have to verify the \(Parameter\)$/) do
+When(/^I choose a (\d+)  of the balance$/) do |arg1|
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-When(/^I insert the \(ZipCode\) in the field$/) do
+Then(/^I should receive \$(\d+)$/) do |arg1|
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-Then(/^I have to take every \(Character\)$/) do
+Given(/^I have Maria in my list$/) do
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-Then(/^I see that the parameter is only \(Number\)$/) do
+When(/^I choose a Maria  of the list$/) do
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-Then(/^I should see the result numeric$/) do
+Then(/^I should receive (\d+)$/) do |arg1|
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-Given(/^I have an \(Username\) string$/) do
+Then(/^I should receive Maria$/) do
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-When(/^I insert the \(Username\) in the field$/) do
+Given(/^I have Pedro in my list$/) do
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-Then(/^I selected every \(Character\)$/) do
+When(/^I choose a Pedro  of the list$/) do
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-Then(/^I see that the parameter is only \(LowerCaseString\)$/) do
+Then(/^I should receive Pedro$/) do
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-Then(/^I should see the result lowercaseUsername$/) do
+Given(/^I have Gustavo in my list$/) do
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-Given(/^I have a \(Country\) string$/) do
+When(/^I choose a Gustavo  of the list$/) do
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-When(/^I insert the \(Country\) in the field$/) do
+Then(/^I should receive Gustavo$/) do
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-Then(/^I see that the parameter is only \(String\)$/) do
+Given(/^I have Flor in my list$/) do
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-Then(/^I should see the result string$/) do
+When(/^I choose a Flor  of the list$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^I should receive Flor$/) do
   pending # Write code here that turns the phrase above into concrete actions
 end

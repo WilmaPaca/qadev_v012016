@@ -1,0 +1,148 @@
+
+D:\qadev_v012016\Wilma\Cucumber>cucumber features\calculator.feature
+*** WARNING: You must use ANSICON 1.31 or higher (https://github.com/adoxa/ansic
+on/) to get coloured output on Windows
+{1=>"Maria", 2=>"Pedro", 3=>"Gustavo", 4=>"Flor"}
+{1=>"$50", 2=>"$100", 3=>"$200", 4=>"$200"}
+Feature: Calculate basic operations
+
+  @positive_test
+  Scenario: Minus two numbers                   # features/calculator.feature:4
+       Let's Go scenario: Minus two numbers
+      This is the Positive case for Minus two numbers
+    Given I have two number                     # features/calculator.feature:5
+    When I perform the minus with 2, 4 numbers  # features/calculator.feature:6
+    Then I should shows the result of the minus # features/calculator.feature:7
+       Bye Bye it Passed
+
+  @negative_test
+  Scenario: Minus with character special                          # features/cal
+culator.feature:10
+       Let's Go scenario: Minus with character special
+    Given I have a character special                              # features/cal
+culator.feature:11
+    And I have one number                                         # features/cal
+culator.feature:12
+    When I perform the minus with 1 number, "*" character special # features/cal
+culator.feature:13
+    Then I should shows a error                                   # features/cal
+culator.feature:14
+       Bye Bye it Passed
+
+  @boundary_test
+  Scenario: sum from one to four                     # features/calculator.featu
+re:17
+       Let's Go scenario: sum from one to four
+    Given I have two number                          # features/calculator.featu
+re:18
+    When I perform the minus with 1, 2, 3, 4 numbers # features/calculator.featu
+re:19
+    Then I should shows the result of the sum        # features/calculator.featu
+re:20
+       Bye Bye it Passed
+
+3 scenarios (3 undefined)
+10 steps (10 undefined)
+0m0.101s
+
+You can implement step definitions for undefined steps with these snippets:
+
+Given(/^I have two number$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When(/^I perform the minus with (\d+), (\d+) numbers$/) do |arg1, arg2|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^I should shows the result of the minus$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Given(/^I have a character special$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Given(/^I have one number$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When(/^I perform the minus with (\d+) number, "([^"]*)" character special$/) do
+|arg1, arg2|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^I should shows a error$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When(/^I perform the minus with (\d+), (\d+), (\d+), (\d+) numbers$/) do |arg1,
+arg2, arg3, arg4|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^I should shows the result of the sum$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+
+D:\qadev_v012016\Wilma\Cucumber>cucumber features\calculator.feature
+*** WARNING: You must use ANSICON 1.31 or higher (https://github.com/adoxa/ansic
+on/) to get coloured output on Windows
+{1=>"Maria", 2=>"Pedro", 3=>"Gustavo", 4=>"Flor"}
+{1=>"$50", 2=>"$100", 3=>"$200", 4=>"$200"}
+Feature: Calculate basic operations
+
+  @positive_test
+  Scenario: Minus two numbers                   # features/calculator.feature:4
+       Let's Go scenario: Minus two numbers
+      This is the Positive case for Minus two numbers
+    Given I have two number                     # features/step_definitions/step
+_calculator.rb:1
+      TODO (Cucumber::Pending)
+      ./features/step_definitions/step_calculator.rb:2:in `/^I have two number$/
+'
+      features/calculator.feature:5:in `Given I have two number'
+    When I perform the minus with 2, 4 numbers  # features/step_definitions/step
+_calculator.rb:5
+    Then I should shows the result of the minus # features/step_definitions/step
+_calculator.rb:9
+       Bye Bye it Passed
+
+  @negative_test
+  Scenario: Minus with character special                          # features/cal
+culator.feature:10
+       Let's Go scenario: Minus with character special
+    Given I have a character special                              # features/ste
+p_definitions/step_calculator.rb:13
+      TODO (Cucumber::Pending)
+      ./features/step_definitions/step_calculator.rb:14:in `/^I have a character
+ special$/'
+      features/calculator.feature:11:in `Given I have a character special'
+    And I have one number                                         # features/ste
+p_definitions/step_calculator.rb:17
+    When I perform the minus with 1 number, "*" character special # features/ste
+p_definitions/step_calculator.rb:21
+    Then I should shows a error                                   # features/ste
+p_definitions/step_calculator.rb:26
+       Bye Bye it Passed
+
+  @boundary_test
+  Scenario: sum from one to four                     # features/calculator.featu
+re:17
+       Let's Go scenario: sum from one to four
+    Given I have two number                          # features/step_definitions
+/step_calculator.rb:1
+      TODO (Cucumber::Pending)
+      ./features/step_definitions/step_calculator.rb:2:in `/^I have two number$/
+'
+      features/calculator.feature:18:in `Given I have two number'
+    When I perform the minus with 1, 2, 3, 4 numbers # features/step_definitions
+/step_calculator.rb:30
+    Then I should shows the result of the sum        # features/step_definitions
+/step_calculator.rb:35
+       Bye Bye it Passed
+
+3 scenarios (3 pending)
+10 steps (7 skipped, 3 pending)
+0m0.276s

@@ -1,35 +1,37 @@
-Given(/^I want (\d+) apples? to buy the supermarket$/) do |arg1|
+Given(/^I have two number$/) do
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-Given(/^I have (\d+) Bs with "([credit card|money]*)"$/) do |arg1, arg2|
+When(/^I perform the minus with (\d+), (\d+) numbers$/) do |arg1, arg2|
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-Given(/^I have (\d+) minutes to go to the supermarket$/) do |arg1|
+Then(/^I should shows the result of the minus$/) do
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-When(/^the supermarket close their doors$/) do
+Given(/^I have a character special$/) do
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-Then(/^I go very fast$/) do
+Given(/^I have one number$/) do
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-When(/^I entry to the supermarket$/) do
+When(/^I perform the minus with (\d+) number, "([^"]*)" character special$/) do
+|arg1, arg2|
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-Then(/^I take (\d+) apples? to buy$/) do |arg1|
+Then(/^I should shows a error$/) do
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-Then(/^I go to the assistent to pay$/) do
+When(/^I perform the minus with (\d+), (\d+), (\d+), (\d+) numbers$/) do |arg1,
+arg2, arg3, arg4|
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-Then(/^I pay with "([credit card|money]*)"$/) do |arg1|
+Then(/^I should shows the result of the sum$/) do
   pending # Write code here that turns the phrase above into concrete actions
 end
