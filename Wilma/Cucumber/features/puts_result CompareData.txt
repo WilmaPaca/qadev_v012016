@@ -1,0 +1,135 @@
+D:\qadev_v012016\Wilma\Cucumber>cucumber features\CompareData.feature
+*** WARNING: You must use ANSICON 1.31 or higher (https://github.com/adoxa/ansic
+on/) to get coloured output on Windows
+Feature: Compare List
+
+  @scenario1
+  Scenario Outline: Compare Data      # features/CompareData.feature:3
+    Given I have Item in my list      # features/CompareData.feature:4
+    When I choose a <ID>  of the item # features/CompareData.feature:5
+    Then I should receive <Item> item # features/CompareData.feature:6
+
+    Examples:
+      | ID | Item |
+      | 1  | A    |  This is the  case for Compare Data, Examples (#1),  It Pass
+ed
+      | 2  | B    |  This is the  case for Compare Data, Examples (#2),  It Pass
+ed
+      | 3  | C    |  This is the  case for Compare Data, Examples (#3),  It Pass
+ed
+      | 4  | D    |  This is the  case for Compare Data, Examples (#4),  It Pass
+ed
+
+  @scenario2
+  Scenario Outline: Compare Client      # features/CompareData.feature:15
+    Given I have Client in my balance   # features/CompareData.feature:16
+    When I choose a <ID>  of the item   # features/CompareData.feature:17
+    Then I should receive <Client> item # features/CompareData.feature:18
+
+    Examples:
+      | ID | Client |
+      | 1  | AW     |  This is the case for Compare Client, Examples (#1),  It P
+assed
+
+5 scenarios (5 undefined)
+15 steps (15 undefined)
+0m0.163s
+
+You can implement step definitions for undefined steps with these snippets:
+
+Given(/^I have Item in my list$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When(/^I choose a (\d+)  of the item$/) do |arg1|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^I should receive A item$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^I should receive B item$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^I should receive C item$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^I should receive D item$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Given(/^I have Client in my balance$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^I should receive AW item$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+D:\qadev_v012016\Wilma\Cucumber>cucumber features\CompareData.feature
+*** WARNING: You must use ANSICON 1.31 or higher (https://github.com/adoxa/ansic
+on/) to get coloured output on Windows
+{1=>"W", 2=>"X", 3=>"S", 4=>"R"}
+Feature: Compare List
+
+  @scenario1
+  Scenario Outline: Compare Data      # features/CompareData.feature:3
+    Given I have Item in my list      # features/CompareData.feature:4
+    When I choose a <ID>  of the item # features/CompareData.feature:5
+    Then I should receive <Item> item # features/CompareData.feature:6
+
+    Examples:
+      | ID | Item |
+      | 1  | A    |  This is the  case for Compare Data, Examples (#1),  It Pass
+ed
+      | 2  | B    |  This is the  case for Compare Data, Examples (#2),  It Pass
+ed
+      | 3  | C    |  This is the  case for Compare Data, Examples (#3),  It Pass
+ed
+      | 4  | D    |  This is the  case for Compare Data, Examples (#4),  It Pass
+ed
+
+  @scenario2
+  Scenario Outline: Compare Client      # features/CompareData.feature:15
+    Given I have Client in my balance   # features/CompareData.feature:16
+    When I choose a <ID>  of the item   # features/CompareData.feature:17
+    Then I should receive <Client> item # features/CompareData.feature:18
+
+    Examples:
+      | ID | Client |
+      | 1  | AW     |  This is the case for Compare Client, Examples (#1),  It P
+assed
+
+5 scenarios (5 pending)
+15 steps (9 skipped, 1 undefined, 5 pending)
+0m0.144s
+
+You can implement step definitions for undefined steps with these snippets:
+
+Then(/^I should receive A item$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+
+D:\qadev_v012016\Wilma\Cucumber>cucumber -f html -o test_reportItemSc1.html fea
+ures\CompareData.feature -t @scenario1
+*** WARNING: You must use ANSICON 1.31 or higher (https://github.com/adoxa/ansi
+on/) to get coloured output on Windows
+{1=>"W", 2=>"X", 3=>"S", 4=>"R"}
+
+D:\qadev_v012016\Wilma\Cucumber>cucumber -f html -o test_reportItemSc2.html fea
+ures\CompareData.feature -t @scenario2
+*** WARNING: You must use ANSICON 1.31 or higher (https://github.com/adoxa/ansi
+on/) to get coloured output on Windows
+{1=>"W", 2=>"X", 3=>"S", 4=>"R"}
+
+D:\qadev_v012016\Wilma\Cucumber>cucumber -f html -o test_reportItemAll.html fea
+ures\CompareData.feature -t @scenario2 and @scenario1
+*** WARNING: You must use ANSICON 1.31 or higher (https://github.com/adoxa/ansi
+on/) to get coloured output on Windows
+{1=>"W", 2=>"X", 3=>"S", 4=>"R"}
+No such file or directory - and. You can use `cucumber --init` to get started.
+

@@ -1,37 +1,31 @@
-Given(/^I have two number$/) do
+Given(/^I have Item in my list$/) do
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-When(/^I perform the minus with (\d+), (\d+) numbers$/) do |arg1, arg2|
+When(/^I choose a (\d+)  of the item$/) do |arg1|
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-Then(/^I should shows the result of the minus$/) do
+Then(/^I should receive "[a-zA-Z]*" item$/) do |arg1|
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-Given(/^I have a character special$/) do
+Then(/^I should receive B item$/) do
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-Given(/^I have one number$/) do
+Then(/^I should receive C item$/) do
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-When(/^I perform the minus with (\d+) number, "([^"]*)" character special$/) do
-|arg1, arg2|
+Then(/^I should receive D item$/) do
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-Then(/^I should shows a error$/) do
+Given(/^I have Client in my balance$/) do
   pending # Write code here that turns the phrase above into concrete actions
 end
 
-When(/^I perform the minus with (\d+), (\d+), (\d+), (\d+) numbers$/) do |arg1,
-arg2, arg3, arg4|
-  pending # Write code here that turns the phrase above into concrete actions
-end
-
-Then(/^I should shows the result of the sum$/) do
+Then(/^I should receive AW item$/) do
   pending # Write code here that turns the phrase above into concrete actions
 end

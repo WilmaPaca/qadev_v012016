@@ -1,0 +1,109 @@
+D:\qadev_v012016\Wilma\Cucumber>cucumber features\Login.feature
+*** WARNING: You must use ANSICON 1.31 or higher (https://github.com/adoxa/ansic
+on/) to get coloured output on Windows
+Feature: Login User
+
+  Scenario: Log on to the page                                            # feat
+ures/Login.feature:3
+       Let's Go scenario: Log on to the page
+    Given I have a username                                               # feat
+ures/Login.feature:4
+    And I have a password                                                 # feat
+ures/Login.feature:5
+    When I insert the "Username", "Password" the username, password field # feat
+ures/Login.feature:6
+    Then I should shows a message                                         # feat
+ures/Login.feature:7
+       Bye Bye it Passed
+
+1 scenario (1 undefined)
+4 steps (4 undefined)
+0m0.078s
+
+You can implement step definitions for undefined steps with these snippets:
+
+Given(/^I have a username$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Given(/^I have a password$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When(/^I insert the "([^"]*)", "([^"]*)" the username, password field$/) do |arg
+1, arg2|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^I should shows a message$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+D:\qadev_v012016\Wilma\Cucumber>cucumber features\Login.feature
+*** WARNING: You must use ANSICON 1.31 or higher (https://github.com/adoxa/ansic
+on/) to get coloured output on Windows
+Feature: Login User
+
+  Scenario: Log on to the page user one                          # features/Logi
+n.feature:3
+       Let's Go scenario: Log on to the page user one
+    Given I have a username                                      # features/step
+_definitions/step_Login.rb:1
+      TODO (Cucumber::Pending)
+      ./features/step_definitions/step_Login.rb:2:in `/^I have a username$/'
+      features/Login.feature:4:in `Given I have a username'
+    And I have a password                                        # features/step
+_definitions/step_Login.rb:5
+    When I insert the "Maria", "a1" the username, password field # features/step
+_definitions/step_Login.rb:18
+    Then I should shows a message                                # features/step
+_definitions/step_Login.rb:23
+       Bye Bye it Passed
+
+1 scenario (1 pending)
+4 steps (3 skipped, 1 pending)
+0m0.088s
+
+D:\qadev_v012016\Wilma\Cucumber>cucumber features\Login.feature
+*** WARNING: You must use ANSICON 1.31 or higher (https://github.com/adoxa/ansi
+on/) to get coloured output on Windows
+Feature: Login User
+
+  @scenario1
+  Scenario: Log on to the page user one                          # features/Log
+n.feature:3
+      This is the  case for Log on to the page user one
+    Given I have a username                                      # features/ste
+_definitions/step_Login.rb:1
+      TODO (Cucumber::Pending)
+      ./features/step_definitions/step_Login.rb:2:in `/^I have a username$/'
+      features/Login.feature:4:in `Given I have a username'
+    And I have a password                                        # features/ste
+_definitions/step_Login.rb:5
+    When I insert the "Maria", "a1" the username, password field # features/ste
+_definitions/step_Login.rb:18
+    Then I should shows a message                                # features/ste
+_definitions/step_Login.rb:22
+       It Passed
+
+  @scenario2
+  Scenario: Log on to the page user two                         # features/Logi
+.feature:10
+      This is the case for Log on to the page user two
+    Given I have a username                                     # features/step
+definitions/step_Login.rb:1
+      TODO (Cucumber::Pending)
+      ./features/step_definitions/step_Login.rb:2:in `/^I have a username$/'
+      features/Login.feature:11:in `Given I have a username'
+    And I have a password                                       # features/step
+definitions/step_Login.rb:5
+    When I insert the "Maria", "x" the username, password field # features/step
+definitions/step_Login.rb:18
+    Then I should shows a message                               # features/step
+definitions/step_Login.rb:22
+       It Passed
+
+2 scenarios (2 pending)
+8 steps (6 skipped, 2 pending)
+0m0.188s
+

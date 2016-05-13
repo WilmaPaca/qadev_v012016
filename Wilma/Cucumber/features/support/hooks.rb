@@ -1,22 +1,27 @@
-Before do |scenario|
-  puts " Let’s Go scenario: #{scenario.name}"
-end
-Before('@negative_test','@boundary_test') do |scenario|
+Before('@scenario1') do |scenario|
   # This will only run before scenarios tagged
   # with @some  OR @any.
-   puts "This is the negative case for #{scenario.name}"
+   puts "This is the  case for #{scenario.name}"
 end
-Before('@positive_test') do |scenario|
+Before('@scenario2') do |scenario|
   # This will only run before scenarios tagged
   # with @some  OR @any.
-   puts "This is the Positive case for #{scenario.name}"
+   puts "This is the case for #{scenario.name}"
 end
 
-
-After do |scenario|
+After ('@scenario1') do |scenario|
    if scenario.failed?
     puts  "Faile#{scenario.exception.message}" 
    else
-   	 puts " Bye Bye it Passed"
+   	 puts " It Passed"
   end
 end
+
+After ('@scenario2') do |scenario|
+   if scenario.failed?
+    puts  "Faile#{scenario.exception.message}" 
+   else
+     puts " It Passed"
+  end
+end
+
